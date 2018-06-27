@@ -1,8 +1,12 @@
 form {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 form > * {
     margin: 5px auto;
-    padding: 5px;
 }
+form input,
+form select,
+form button { 
+    padding: 10px;
+} 
