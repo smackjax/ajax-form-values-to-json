@@ -3,7 +3,6 @@
 To make an easy tool that quickly converts forms to be asynchronous, and their values to a JSON object.
 
 ## What it does
-So ok...it kind of does that. I just wanted this to be easy to find, because that's the problem I originally wanted to solve. 
 This really converts submitted form values to a JS object, which can then be easily converted to JSON with stringify. 
 I cut out the actual stringification in case the data has to be checked or manipulated first.
 
